@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		142DA5FF21A6BA2900027DF4 /* VCDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1432A70D21A12DE500E41232 /* VCDiskCache.m */; };
 		1430DA2D219E627A0035CAEA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1430DA2C219E627A0035CAEA /* libsqlite3.0.tbd */; };
+		143258B021B57BCC003BEBFB /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 143258AF21B57BCC003BEBFB /* DemoCell.m */; };
 		14326CFD21993EC300FF3785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14326CFC21993EC200FF3785 /* AppDelegate.m */; };
 		14326D0021993EC300FF3785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14326CFF21993EC300FF3785 /* ViewController.m */; };
 		14326D0321993EC300FF3785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14326D0121993EC300FF3785 /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1430DA2C219E627A0035CAEA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		143258AE21B57BCC003BEBFB /* DemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		143258AF21B57BCC003BEBFB /* DemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
 		14326CF821993EC200FF3785 /* VCWebImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCWebImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14326CFB21993EC200FF3785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14326CFC21993EC200FF3785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				143710BB219B1CFC00039A89 /* Model */,
 				14326CFB21993EC200FF3785 /* AppDelegate.h */,
 				14326CFC21993EC200FF3785 /* AppDelegate.m */,
+				143258AE21B57BCC003BEBFB /* DemoCell.h */,
+				143258AF21B57BCC003BEBFB /* DemoCell.m */,
 				14326CFE21993EC300FF3785 /* ViewController.h */,
 				14326CFF21993EC300FF3785 /* ViewController.m */,
 				14326D0121993EC300FF3785 /* Main.storyboard */,
@@ -261,6 +266,7 @@
 				1433EAF8219978FA00B98E96 /* VCMarco.m in Sources */,
 				142DA5FF21A6BA2900027DF4 /* VCDiskCache.m in Sources */,
 				14326CFD21993EC300FF3785 /* AppDelegate.m in Sources */,
+				143258B021B57BCC003BEBFB /* DemoCell.m in Sources */,
 				14326D16219948AD00FF3785 /* VCWebImageDownloadOperation.m in Sources */,
 				149C7A59219DB71F0062A2AC /* VCMemoryCache.m in Sources */,
 				149C7A56219DB70D0062A2AC /* VCCache.m in Sources */,

@@ -51,13 +51,12 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="customImageView" destination="yQO-92-LBh" id="tYq-w9-bw6"/>
-                                            <outlet property="label" destination="i16-mm-7PK" id="DMU-oi-tos"/>
+                                            <outlet property="customImageView" destination="yQO-92-LBh" id="MyN-rk-x87"/>
+                                            <outlet property="label" destination="i16-mm-7PK" id="Gse-1r-E2O"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Khp-PT-Reg"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="WA3-Xu-rC3"/>
                                 </connections>
                             </tableView>
