@@ -43,7 +43,7 @@ BOOL hasAlpha(CGImageRef image) {
 	 **
 	 ** bitsPerComponent是每个颜色通道包含的字节数，选择8，bytesPerRow是每行o有几个字节，0代表apple底层会自动计算，且进行字节对齐
 	 ***/
-	CGContextRef contextRef = CGBitmapContextCreate(NULL, image.size.height, image.size.width, 8, 0, VCGColorSpace(), bitmapInfo);
+	CGContextRef contextRef = CGBitmapContextCreate(NULL, image.size.width, image.size.height, 8, 0, VCGColorSpace(), bitmapInfo);
 	CGContextDrawImage(contextRef, CGRectMake(0, 0, image.size.width, image.size.height), image.CGImage);
 	CGImageRef newImage = CGBitmapContextCreateImage(contextRef);
 	CFRelease(contextRef);

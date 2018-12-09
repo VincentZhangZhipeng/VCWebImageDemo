@@ -168,6 +168,11 @@
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error {
 	if (!error) {
+		if (self.shouldProgressDecode && self.progressDecoder.image) {
+			[[VCCache sharedCache] setObject:self.progressDecoder.image forKey:_url.absoluteString];
+			[self done];
+			return;
+		}
 		if (_shouldDecode) {
 			@autoreleasepool {
 				__weak typeof(self) weakSelf = self;
